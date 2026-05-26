@@ -1,8 +1,8 @@
 # Recommender Systems
 
-This repository contains a series of projects I built to develop deep, hands-on expertise in recommender systems — from classical techniques to modern neural approaches. Each project involves implementing algorithms from their mathematical definitions, evaluating them rigorously on real data, and drawing analytical conclusions from the results. The dataset used throughout is [MovieLens](https://grouplens.org/datasets/movielens/).
+This repository contains a series of projects I built as part of the Recommender Systems coursework at the University of Minnesota, developing deep, hands-on expertise — from classical techniques to modern neural approaches. Each project involves implementing algorithms from their mathematical definitions, evaluating them rigorously on real data, and drawing analytical conclusions from the results. The dataset used throughout is [MovieLens](https://grouplens.org/datasets/movielens/).
 
-Rather than using high-level libraries as black boxes, I focused on understanding the internals: writing gradient descent loops by hand, building custom evaluation metrics, implementing similarity functions, and designing experiments that replicate published research findings.
+Rather than using high-level libraries as black boxes, we focused on understanding the internals: writing gradient descent loops by hand, building custom evaluation metrics, implementing similarity functions, and designing experiments that replicate published research findings.
 
 ## Projects
 

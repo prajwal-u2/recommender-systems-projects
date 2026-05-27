@@ -24,6 +24,10 @@ Implemented a genre-vector personalized recommender without using any rating dat
 ### Evaluation
 Ran 5-fold cross-validation across all algorithms with RMSE as the metric. The evaluation confirmed that item-item CF outperforms the global baseline, and that content-only filtering underperforms rating-based methods — but remains useful in sparsity regimes.
 
+## Results
+
+![Cross-validated RMSE across all algorithms — user-item baseline and item-item CF substantially outperform the global average, while genre-only content filtering lags significantly](rmse_comparison.png)
+
 ## Key findings
 
 - Using the user-item average as a pre-normalization step consistently lowers SVD RMSE

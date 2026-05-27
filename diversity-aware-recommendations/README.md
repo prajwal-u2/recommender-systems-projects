@@ -30,6 +30,10 @@ Implemented Simon Funk's matrix factorization algorithm using stochastic gradien
 
 Then used this SVD as a third base algorithm in the Ziegler experiment to compare how a stronger base ranker affects the precision/diversity trade-off curves.
 
+## Results
+
+![Precision vs ILS trade-off as θ increases — increasing diversity (lower ILS) comes at a modest precision cost, replicating the core finding from Ziegler et al.](precision_ils_tradeoff.png)
+
 ## Key findings
 
 - Diversity gains from re-ranking are real and replicable: sweeping `theta_f` from 0 to 0.3 reduces ILS substantially with minimal precision loss — confirming the paper's core claim

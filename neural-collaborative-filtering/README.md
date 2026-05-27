@@ -40,6 +40,10 @@ All 5 models evaluated on a held-out test set using RMSE (pointwise) and precisi
 
 ## Results
 
+![RMSE and Precision@10 across all five models — GMF, MLP, and NeuMF all dramatically outperform plain MF on RMSE; BPR-NeuMF dominates on ranking precision](model_comparison.png)
+
+![NeuMF training/validation RMSE and BPR loss curves over 10 epochs — both models converge stably with no overfitting](training_curves.png)
+
 | Model | RMSE | Notes |
 |---|---|---|
 | MF (no bias) | ~2.3 | baseline |

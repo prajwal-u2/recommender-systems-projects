@@ -2,6 +2,12 @@
 
 An exploration of foundational recommendation approaches on the MovieLens dataset. This project builds intuition for how data shape, sparsity, and item popularity affect recommendation quality — all before any personalization is applied. It covers the full pipeline from raw data exploration through non-personalized scoring, demographic segmentation, item association rules, and content-based filtering.
 
+## Data distributions
+
+![Distribution of ratings per user — most users rate very few items, confirming the long-tail sparsity of the dataset](ratings_per_user_distribution.png)
+
+![Item popularity distribution — most items receive very few ratings, motivating the use of damped averages](item_popularity_distribution.png)
+
 ## What I built
 
 ### Data exploration

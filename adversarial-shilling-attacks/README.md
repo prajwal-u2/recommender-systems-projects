@@ -2,6 +2,8 @@
 
 An empirical study of shilling attacks — a class of adversarial manipulation where an attacker injects fake user profiles into a rating dataset to bias recommendation outputs in their favor. This project implements push and nuke attacks using two distinct strategies, targets them at specific items chosen to stress-test each strategy, and measures their effectiveness against KNN and SVD recommenders across varying attack sizes.
 
+![Shilling attack architecture — a malicious attacker generates fake user profiles and injects them into the user-item interaction matrix, biasing the recommender system's output](shilling_attack1.png)
+
 ## What I built
 
 ### Attack framework
@@ -29,6 +31,10 @@ Selected target items strategically to stress-test attack difficulty:
 
 ### Victim models and measurement
 Evaluated both KNN-based and SVD-based recommenders as victims. For each combination of attack type, strategy, and victim model, swept attack size from 0 to a large number of injected profiles and measured how far the target item moved in recommendation rankings. This produces learning curves that reveal how quickly each attack reaches saturation.
+
+## Results
+
+![Attack power vs attack size across push and nuke scenarios for KNN and SVD recommenders](shilling_attack2.png)
 
 ## Key findings
 
